@@ -245,19 +245,20 @@
   margin-bottom: 80px; }
 
 .goods__top-icon-list {
-  text-align: right;
-  padding-right: 15px; }
+  width: 340px;
+  text-align: right; }
 
 .goods__list, .goods__top-icon, .goods__new-icon {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   z-index: 1;
   position: relative; }
 
 .goods__top-icon {
   list-style: none;
   margin-bottom: -60px;
-  z-index: 10; }
+  z-index: 10;
+  width: 1400px; }
 
 .goods__new-icon {
   list-style: none;
