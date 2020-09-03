@@ -1,0 +1,138 @@
+.goods{
+  width: 1374px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.goods__h2{
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.goods__top-icon-list{
+  text-align: right;
+  padding-right: 15px;
+}
+
+.goods__list, .goods__top-icon, .goods__new-icon{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  z-index: 1;
+  position: relative;
+}
+
+
+.goods__top-icon{
+  list-style: none;
+  margin-bottom: -60px;
+  z-index: 10;
+}
+
+.goods__new-icon{
+  list-style: none;
+  margin-bottom: -53px;
+  z-index: 10;
+}
+
+.goods__item{
+  width: 312px;
+  height: 520px;
+  background: #EFF2F1;
+  border: 1px solid rgba(77, 115, 189, 0.6);
+  box-shadow: 0px 4px 20px rgba(77, 115, 189, 0.6);
+  display: grid;
+  grid-template-rows: 240px 35px 64px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.goods__image-wrapper{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.goods__new-price--new{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.goods__image--first{
+  margin-left: 41px;
+}
+
+.goods__image--second{
+  margin-left: 68px;
+}
+
+.goods__image--third{
+  margin-left: 97px;
+}
+
+.goods__image--forth{
+  margin-left: -15px;
+}
+
+.goods__name{
+  margin: 0;
+  padding: 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.goods__article, .goods__instock, .goods__old-price{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #313131;
+  margin-left: 25px;
+}
+
+.goods__name{
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.goods__new-price{
+  margin-left: 18px;
+  width: 126px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  padding-top: 13px;
+  text-align: center;
+  border: 1.5px solid #4D73BD;
+}
+
+.goods__old-price{
+  white-space: pre;
+  padding-top: 10px;
+}
+
+.goods__compare{
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.goods__button{
+  margin-left: 10px;
+  padding: 15px 15px 15px 15px;
+  background-color: #4D73BD;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #F1F1F1;
+  text-decoration: none;
+}
+
+.goods__link-wrapper{
+  text-align: center;
+  margin: 58px 0 60px 0;
+}

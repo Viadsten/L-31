@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/normalize.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <title>L-31</title>
+    </head>
+    <body class="page">
+      <svg style="display: none;">
+        <symbol viewBox="0 0 16 16" id="login-icon">
+          <path class="st0" d="M0 7h7V4.1L11 8l-4 3.9V9.1L0 9z"/><path class="st0" d="M7 0v2h7v12H7v2h9V0z"/>
+        </symbol>
+      </svg>
+      <header class="header header--catalog">
+        <nav class="header__site-nav">
+          <ul class="header__site-list">
+            <li class="header__logo-item">
+              <div class="header__logo-line"></div>
+              <p class="header__logo-text">L - 31</p>
+              <div class="header__logo-line"></div>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">О компании</a>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">Отзывы</a>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">Оплата</a>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">Доставка</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__contacts">
+          <p class="header__telephone">8(800)000-00-00</p>
+          <p class="header__work-time">24/7, пн-вс</p>
+        </div>
+        <ul class="header__menu-nav">
+          <li class="header__menu-item">
+            <a class="header__menu-image"><img src="img/search-icon.svg" alt="search-icon" width="32" height="32"></a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-image"><img src="img/login-icon.svg" alt="login-icon" width="36" height="36"></a>
+          </li>
+          <li class="header__basket-item">
+            <a class="header__menu-image"><img src="img/basket-icon.svg" alt="basket-icon" width="31" height="31"></a>
+            <div class="header__basket-active">1</div>
+          </li>
+        </ul>
+        <div class="header__background header__background--catalog"></div>
+      </header>
+      <main class="page-main">
+        <div class="catalog-nav">
+          <a href="#" class="catalog-nav__link">Главная</a>
+          <span class="catalog-nav__symbol">-</span>
+          <a href="index.html" class="catalog-nav__link">Все для пола</a>
+          <span class="catalog-nav__symbol">-</span>
+          <a href="#" class="catalog-nav__link catalog-nav__link--active">Плитка напольная</a>
+        </div>
+        <div class="catalog__icon-wrapper"><img class="catalog__card-icon" src="img/card-logo.png" width="98" height="88"></div>
+        <div class="catalog__card">
+          <div class="catalog__images">
+            <img class="catalog__image--first" src="img/tiles.png" alt="Изображение плитки" width="366" height="262">
+            <img class="catalog__image--second" src="img/tiles.png" alt="Изображение плитки" width="179" height="128">
+            <img class="catalog__image--third" src="img/tiles.png" alt="Изображение плитки" width="179" height="128">
+            <img class="catalog__image--third" src="img/tiles.png" alt="Изображение плитки" width="179" height="128">
+          </div>
+          <div class="catalog__description">
+            <h2 class="catalog__h2">Плитка напольная<br>Италия</h2>
+            <p class="catalog__properties-header">Характеристики:</p>
+            <ul class="catalog__properties-list">
+              <li class="catalog__properties-item">Код товара: 000000</li>
+              <li class="catalog__properties-item">Страа изготовитель: Италия</li>
+              <li class="catalog__properties-item">Размер: 55х40</li>
+              <li class="catalog__properties-item">Матовая</li>
+              <li class="catalog__properties-item">Напольная</li>
+            </ul>
+            <div class="catalog__buttons">
+              <button type="button" class="product__button">Купить</button>
+              <p class="product__price">999 ₽</p>
+              <p class="product__old-price">1780₽ за шт.</p>
+              <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="«5»"></label>
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="«4»"></label>
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="«3»"></label>
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="«2»"></label>
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="«1»"></label>
+              </div>
+              <a class="catalog__raiting" href="#">Рейтинг и отзывы (5)</a>
+            </div>
+          </div>
+        </div>
+        <section class="catalog__contacts">
+          <ul class="catalog__links-list">
+            <li class="catalog__links-item"><a href="#">Описание товара</a></li>
+            <li class="catalog__links-item"><a href="#">Гарантия</a></li>
+            <li class="catalog__links-item"><a href="#">Доставка</a></li>
+          </ul>
+          <textarea placeholder="Плитка напольная Итальянская......" class="catalog__textarea"></textarea>
+        </section>
+        <footer class="footer">
+          <div class="footer__wrapper">
+            <ul class="footer__list footer__adress-list">
+              <li class="footer__adress-item--header">Адрес</li>
+              <li class="footer__adress-item">г. Санкт-Петербург,<br>Невский проспект,<br>д 135</li>
+            </ul>
+            <ul class="footer__list footer__nav-list">
+              <li class="footer__nav-item--header">Навигация</li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">О компании</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Оплата</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Доставка</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Отзывы</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Контакты</a></li>
+            </ul>
+            <ul class="footer__list footer__catalog-list">
+              <li class="footer__catalog-item--header">Каталог</li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Инструменты</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Все для пола</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Двери и замки</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Обои</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Душевые</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Светильники</a></li>
+            </ul>
+            <div class="footer__email">
+              <p class="footer__email-description">Мы проводим специальные акции для наших клиентов.<br>
+              Оформите подписку и мы будем держать Вас в курсе.</p>
+              <div class="footer__input">
+                <input type="email" placeholder="E-mail" class="footer__input-email">
+                <span class="footer__input-line"></span>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </body>
+</html>

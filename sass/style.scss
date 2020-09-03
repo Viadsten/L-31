@@ -1,0 +1,21 @@
+@import 'blocks/header.scss';
+@import 'blocks/main-header.scss';
+@import 'blocks/nav-list.scss';
+@import 'blocks/goods.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/footer.scss';
+//
+@import 'blocks/product.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #313131;
+}
+
+.page{
+  background-color: #E5E5E5;
+}

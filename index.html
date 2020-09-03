@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/normalize.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <title>L-31</title>
+    </head>
+    <body class="page">
+      <svg style="display: none;">
+        <symbol viewBox="0 0 16 16" id="login-icon">
+          <path class="st0" d="M0 7h7V4.1L11 8l-4 3.9V9.1L0 9z"/><path class="st0" d="M7 0v2h7v12H7v2h9V0z"/>
+        </symbol>
+      </svg>
+      <header class="header">
+        <nav class="header__site-nav">
+          <ul class="header__site-list">
+            <li class="header__logo-item">
+              <div class="header__logo-line"></div>
+              <p class="header__logo-text">L - 31</p>
+              <div class="header__logo-line"></div>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">О компании</a>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">Отзывы</a>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">Оплата</a>
+            </li>
+            <li cass="header__item">
+              <a class="header__link" href="#">Доставка</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__contacts">
+          <p class="header__telephone">8(800)000-00-00</p>
+          <p class="header__work-time">24/7, пн-вс</p>
+        </div>
+        <ul class="header__menu-nav">
+          <li class="header__menu-item">
+            <a class="header__menu-image"><img src="img/search-icon.svg" alt="search-icon" width="32" height="32"></a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-image"><img src="img/login-icon.svg" alt="login-icon" width="36" height="36"></a>
+          </li>
+          <li class="header__basket-item">
+            <a class="header__menu-image"><img src="img/basket-icon.svg" alt="basket-icon" width="31" height="31"></a>
+            <div class="header__basket-active">1</div>
+          </li>
+        </ul>
+        <div class="header__background"></div>
+      </header>
+      <main class="page-main">
+        <header class="main__header">
+          <div class="main__first-column">
+            <h1 class="main__h1">Все для ремонта и<br>для дома</h1>
+            <h2 class="main__h2">Более 200 товаров в наличии</h2>
+            <a href="#" class="main__button-link">Каталог</a>
+          </div>
+          <div class="main__second-column">
+            <p class="main__text">Набор инструментов</p>
+            <p class="main__text--bold">MAKITA 25</p>
+            <p class="main__price">7 890 р.</p>
+            <a class="main__link" href="#">Характеристика</a>
+            <div class="form__radio">
+              <div class="radio">
+                <input class="custom-radio" type="radio" id="r1" name="instrument" value="1" checked>
+                <label for="r1"></label>
+              </div>
+              <div class="radio">
+                <input class="custom-radio" type="radio" id="r2" name="instrument" value="2">
+                <label for="r2"></label>
+              </div>
+              <div class="radio">
+                <input class="custom-radio" type="radio" id="r3" name="instrument" value="3">
+                <label for="r3"></label>
+             </div>
+            </div>
+          </div>
+          <img class="main__makita25" alt="Набор инструментов Makita 25" src="img/makita25.png" width="379">
+        </header>
+        <div class="nav-list__wrapper">
+          <ul class="main__nav-list">
+            <li class="main__nav-item">
+              <img src="img/instrument-icon.png" class="nav-item__img--first" alt="иконка инструментов" width="112" height="111">
+              <p>Инструменты</p>
+              <button type="button" class="nav-item__button">
+                <span class="item-button__line item-button--first-line"></span>
+                <span class="item-button__line item-button--second-line"></span>
+              </button>
+            </li>
+            <li class="main__nav-item">
+              <img src="img/floor-icon.png" class="nav-item__img--second" alt="Иконка пола" width="121" height="121">
+              <p>Все для пола</p>
+              <button type="button" class="nav-item__button">
+                <span class="item-button__line item-button--first-line"></span>
+                <span class="item-button__line item-button--second-line"></span>
+              </button>
+            </li>
+            <li class="main__nav-item">
+              <img src="img/door-icon.png" class="nav-item__img--third" alt="Иконка двери" width="116" height="116">
+              <p>Двери и замки</p>
+              <button type="button" class="nav-item__button">
+                <span class="item-button__line item-button--first-line"></span>
+                <span class="item-button__line item-button--second-line"></span>
+              </button>
+            </li>
+            <li class="main__nav-item">
+              <img src="img/wal-paper-icon.png" class="nav-item__img--forth" alt="Иконка обоев" width="127" height="121">
+              <p>Обои</p>
+              <button type="button" class="nav-item__button">
+                <span class="item-button__line item-button--first-line"></span>
+                <span class="item-button__line item-button--second-line"></span>
+              </button>
+            </li>
+            <li class="main__nav-item">
+              <img src="img/bathroom-icon.png" class="nav-item__img--fifth" alt="Иконка ванной" width="121" height="121">
+              <p>Душевые</p>
+              <button type="button" class="nav-item__button">
+                <span class="item-button__line item-button--first-line"></span>
+                <span class="item-button__line item-button--second-line"></span>
+              </button>
+            </li>
+            <li class="main__nav-item">
+              <img src="img/light-icon.png" class="nav-item__img--sixth" alt="Иконка люстры" width="112" height="111">
+              <p>Светильники</p>
+              <button type="button" class="nav-item__button">
+                <span class="item-button__line item-button--first-line"></span>
+                <span class="item-button__line item-button--second-line"></span>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <section class="goods">
+          <h2 class="goods__h2">Спецпредложения</h2>
+          <ul class="goods__top-icon">
+            <li class="goods__top-icon-list">
+              <img src="img/offer-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+            <li class="goods__top-icon-list">
+              <img src="img/offer-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+            <li class="goods__top-icon-list">
+              <img src="img/offer-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+            <li class="goods__top-icon-list">
+              <img src="img/offer-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+          </ul>
+          <ul class="goods__list">
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--first" src="img/drile.png" alt="Изображение дрели" width="190" height="159">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Дрель электрическая<br>F456</p>
+              <div>
+                <p class="goods__new-price">2500 ₽</p>
+              </div>
+              <p class="goods__old-price"> Cтарая цена<br>3280 ₽</p>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="#" class="goods__button">Купить</a>
+              </div>
+            </li>
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--second" src="img/shower.png" alt="Изображение насадки" width="186" height="191">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Смеситель для душа<br>Rander</p>
+              <div>
+                <p class="goods__new-price">1250 ₽</p>
+              </div>
+              <p class="goods__old-price"> Cтарая цена<br>2500 ₽</p>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="#" class="goods__button">Купить</a>
+              </div>
+            </li>
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--third" src="img/lamp.png" alt="Изображение лампы" width="123" height="209">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Лампа прикроватная</p>
+              <div>
+                <p class="goods__new-price">3247 ₽</p>
+              </div>
+              <p class="goods__old-price"> Cтарая цена<br>3850 ₽</p>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="#" class="goods__button">Купить</a>
+              </div>
+            </li>
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--forth" src="img/border.png" alt="Изображение плитки" width="366" height="194">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Плитка напольная<br>Италия</p>
+              <div>
+                <p class="goods__new-price">999 ₽</p>
+              </div>
+              <p class="goods__old-price"> Cтарая цена<br>1780 ₽</p>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="floor-tiles.html" class="goods__button">Купить</a>
+              </div>
+            </li>
+          </ul>
+          <div class="goods__link-wrapper">
+            <a class="goods__link" href="#">Посмотреть все спецпредложения  ></a>
+          </div>
+        </section>
+        <section class="goods">
+          <h2 class="goods__h2">Новинки</h2>
+          <ul class="goods__new-icon">
+            <li class="goods__top-icon-list">
+              <img src="img/new-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+            <li class="goods__top-icon-list">
+              <img src="img/new-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+            <li class="goods__top-icon-list">
+              <img src="img/new-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+            <li class="goods__top-icon-list">
+              <img src="img/new-logo.png" class="goods__card-img" width="61" height="68">
+            </li>
+          </ul>
+          <ul class="goods__list">
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--first" src="img/drile.png" alt="Изображение дрели" width="190" height="159">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Дрель электрическая<br>F456</p>
+              <div class="goods__new-price--new">
+                <p class="goods__new-price ">2500 ₽</p>
+              </div>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="#" class="goods__button">Купить</a>
+              </div>
+            </li>
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--second" src="img/shower.png" alt="Изображение насадки" width="186" height="191">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Смеситель для душа<br>Rander</p>
+              <div  class="goods__new-price--new">
+                <p class="goods__new-price">1250 ₽</p>
+              </div>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="#" class="goods__button">Купить</a>
+              </div>
+            </li>
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--third" src="img/lamp.png" alt="Изображение лампы" width="123" height="209">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Лампа прикроватная</p>
+              <div  class="goods__new-price--new">
+                <p class="goods__new-price">3247 ₽</p>
+              </div>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="#" class="goods__button">Купить</a>
+              </div>
+            </li>
+            <li class="goods__item">
+              <div class="goods__image-wrapper">
+                <img class="goods__image--forth" src="img/border.png" alt="Изображение плитки" width="366" height="194">
+              </div>
+              <p class="goods__article">Арт. 010101</p>
+              <p class="goods__instock">Есть на складе</p>
+              <p class="goods__name">Плитка напольная<br>Италия</p>
+              <div  class="goods__new-price--new">
+                <p class="goods__new-price">999 ₽</p>
+              </div>
+              <a href="#" class="goods__compare">Сравнить</a>
+              <div>
+                <a href="floor-tiles.html" class="goods__button">Купить</a>
+              </div>
+            </li>
+          </ul>
+          <div class="goods__link-wrapper">
+            <a class="goods__link" href="#">Посмотреть все новинки ></a>
+          </div>
+        </section>
+        <section class="advantages">
+          <div class="advantages__circle-wrapper">
+            <figure class="advantages__circle advantages__circle--first">I</figure>
+            <span class="advantages__line"></span>
+            <figure class="advantages__circle advantages__circle--second">II</figure>
+            <span class="advantages__line"></span>
+            <figure class="advantages__circle advantages__circle--third">III</figure>
+            <span class="advantages__line"></span>
+            <figure class="advantages__circle advantages__circle--forth">IV</figure>
+          </div>
+          <div class="advantages__text-wrapper">
+            <p>Большой выбор<br>продукции</p>
+            <p>Консультация<br>специалиста</p>
+            <p>Оплата в два<br>клика</p>
+            <p>Доставка до квартиры<br>в течении 2 дней</p>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="footer__wrapper">
+            <ul class="footer__list footer__adress-list">
+              <li class="footer__adress-item--header">Адрес</li>
+              <li class="footer__adress-item">г. Санкт-Петербург,<br>Невский проспект,<br>д 135</li>
+            </ul>
+            <ul class="footer__list footer__nav-list">
+              <li class="footer__nav-item--header">Навигация</li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">О компании</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Оплата</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Доставка</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Отзывы</a></li>
+              <li class="footer__nav-item"><a class="footer__link" href="#">Контакты</a></li>
+            </ul>
+            <ul class="footer__list footer__catalog-list">
+              <li class="footer__catalog-item--header">Каталог</li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Инструменты</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Все для пола</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Двери и замки</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Обои</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Душевые</a></li>
+              <li class="footer__catalog-item"><a class="footer__link" href="#">Светильники</a></li>
+            </ul>
+            <div class="footer__email">
+              <p class="footer__email-description">Мы проводим специальные акции для наших клиентов.<br>
+              Оформите подписку и мы будем держать Вас в курсе.</p>
+              <div class="footer__input">
+                <input type="email" placeholder="E-mail" class="footer__input-email">
+                <span class="footer__input-line"></span>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </body>
+</html>
