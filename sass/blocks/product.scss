@@ -7,13 +7,17 @@
 }
 
 .catalog-nav{
-  width: 1220px;
+  width: 1440px;
+  padding-left: 110px;
+  padding-right: 110px;
   margin: 0 auto;
   margin-bottom: 80px;
 }
 
 .catalog__icon-wrapper{
-  width: 1220px;
+  width: 1440px;
+  padding-left: 110px;
+  padding-right: 110px;
   margin: 0 auto;
   margin-bottom: -80px;
   z-index: 10;
@@ -25,7 +29,9 @@
 
 .catalog__card{
   z-index: 1;
-  width: 1220px;
+  width: 1440px;
+  padding-left: 110px;
+  padding-right: 110px;
   margin: 0 auto;
   margin-bottom: 77px;
   display: flex;
@@ -35,8 +41,6 @@
 .catalog-nav__link--active{
   text-decoration: none;
 }
-
-
 
 .catalog__images{
   width: 621px;
@@ -179,7 +183,9 @@
 }
 
 .catalog__contacts{
-  width: 1220px;
+  width: 1440px;
+  padding-left: 110px;
+  padding-right: 110px;
   margin: 0 auto;
 }
 
