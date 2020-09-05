@@ -60,9 +60,9 @@
   left: calc(50vw + 280px);
 }
 
-@media (max-width: 1310px){
+@media (max-width: 1440px){
   .main__makita25{
-    left: 925px;
+    left: 1005px;
   }
 }
 
@@ -119,4 +119,97 @@
 
 .custom-radio:checked+label::before {
   background-color: #F1F1F1;
+}
+
+.main__button-link--mobile{
+  display: none;
+}
+
+
+@media (max-width: 768px){
+  .main__header{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main__button-link, .main__link{
+    display: none;
+  }
+
+  .main__first-column{
+    text-align: center;
+  }
+
+  .main__h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .main__h2{
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .main__second-column{
+    width: 100%;
+    height: 430px;
+    padding-top: 20px;
+    background-color: #4D73BD;
+  }
+
+  .main__text, .main__text--bold, .main__price{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .main__price{
+    margin-top: 280px;
+  }
+  .main__makita25{
+    margin-top: -360px;
+    z-index: 1;
+    margin-left: calc(50vw - 150px);
+    padding-top: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: #4D73BD;
+    margin-bottom: 10px;
+  }
+
+  .main__makita25--img{
+    width: 250px;
+  }
+
+  .form__radio{
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 15px;
+
+  }
+
+  .main__button-link--mobile{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 50px;
+    padding-top: 8px;
+    color: #4D73BD;
+    background-color: #E5E5E5;
+    border: 1px solid #4D73BD;
+    margin-top: 100px;
+    text-align: center;
+  }
 }
