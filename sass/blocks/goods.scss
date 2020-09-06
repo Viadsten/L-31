@@ -17,8 +17,6 @@
 }
 
 .goods__list, .goods__top-icon, .goods__new-icon{
- // display: grid;
-  //grid-template-columns: 1fr 1fr 1fr 1fr;
   display: flex;
   justify-content: space-between;
   z-index: 1;
@@ -139,4 +137,113 @@
 .goods__link-wrapper{
   text-align: center;
   margin: 58px 0 60px 0;
+}
+
+@media (max-width: 768px){
+  .goods{
+    width: 320px;
+    padding-left: 0;
+    margin-top: 45px;
+  }
+
+  .goods__h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .goods__top-icon{
+    z-index: 10;
+    width: 320px;
+  }
+
+  .goods__new-icon{
+    width: 320px;
+  }
+
+  .goods__top-icon-list{
+    height: 426px;
+    width: 300px;
+    margin-top: -20px;
+  }
+
+  .goods__list, .goods__top-icon, .goods__new-icon{
+     flex-direction: column;
+   }
+
+   .goods__list{
+     margin-top: -1635px;
+     height: 1600px;
+   }
+
+   .goods__item{
+    width: 280px;
+    height: 380px;
+    border: none;
+    box-shadow: 0px 4px 5px rgba(77, 115, 189, 0.3);
+    display: grid;
+    grid-template-rows: 170px 30px 60px 60px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
+
+  .goods__image--first{
+    margin-left: 65px;
+    width: 140px;
+    height: 119px;
+  }
+
+  .goods__image--second{
+    width: 136px;
+    height: 141px;
+  }
+
+  .goods__image--third{
+    width: 85px;
+    height: 139px;
+  }
+
+  .goods__image--forth{
+    width: 240px;
+    height: 110px;
+    margin-left: 30px;
+  }
+
+  .goods__instock{
+    margin-left: 10px;
+  }
+
+  .goods__new-price{
+    margin-left: 25px;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 13px;
+  }
+
+  .goods__old-price{
+    padding-top: 3px;
+  }
+
+  .goods__compare{
+    margin-top: 5px;
+  }
+
+  .goods__button{
+    margin-left: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: #4D73BD;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #F1F1F1;
+    text-decoration: none;
+  }
+
+
+.goods__link-wrapper{
+  margin: 38px 0 40px 0;
+}
+
 }
