@@ -153,22 +153,26 @@
   }
 
   .goods__top-icon{
-    z-index: 10;
-    width: 320px;
+    margin-left: 10px;
+    width: 20px;
   }
 
   .goods__new-icon{
-    width: 320px;
+    margin-left: 10px;
+    width: 20px;
+
   }
 
   .goods__top-icon-list{
-    height: 426px;
+    height: 26px;
+    margin-bottom: 400px;
     width: 300px;
     margin-top: -20px;
   }
 
   .goods__list, .goods__top-icon, .goods__new-icon{
      flex-direction: column;
+     position: relative;
    }
 
    .goods__list{

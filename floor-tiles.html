@@ -14,26 +14,34 @@
           <path class="st0" d="M0 7h7V4.1L11 8l-4 3.9V9.1L0 9z"/><path class="st0" d="M7 0v2h7v12H7v2h9V0z"/>
         </symbol>
       </svg>
-      <header class="header header--catalog">
+      <header class="header">
         <nav class="header__site-nav">
-          <ul class="header__site-list">
-            <li class="header__logo-item">
-              <div class="header__logo-line"></div>
-              <p class="header__logo-text">L - 31</p>
-              <div class="header__logo-line"></div>
-            </li>
+          <div class="header__logo-line"></div>
+          <p class="header__logo-text">L - 31</p>
+          <div class="header__logo-line"></div>
+          <button type="menu" class="header__toggle">
+            <span class="toggle__line toggle__line_first"></span>
+            <span class="toggle__line toggle__line_second"></span>
+            <span class="toggle__line toggle__line_third"></span>
+          </button>
+          <ul class="header__site-list" id="navigation">
+            <hr class="header__line">
             <li cass="header__item">
               <a class="header__link" href="#">О компании</a>
             </li>
+            <hr class="header__line">
             <li cass="header__item">
               <a class="header__link" href="#">Отзывы</a>
             </li>
+            <hr class="header__line">
             <li cass="header__item">
               <a class="header__link" href="#">Оплата</a>
             </li>
+            <hr class="header__line">
             <li cass="header__item">
               <a class="header__link" href="#">Доставка</a>
             </li>
+            <hr class="header__line">
           </ul>
         </nav>
         <div class="header__contacts">
@@ -42,17 +50,17 @@
         </div>
         <ul class="header__menu-nav">
           <li class="header__menu-item">
-            <a class="header__menu-image"><img src="img/search-icon.svg" alt="search-icon" width="32" height="32"></a>
+            <a class="header__menu-image"><img src="img/search-icon.svg" class="header__search-icon" alt="search-icon" width="32" height="32"></a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-image"><img src="img/login-icon.svg" alt="login-icon" width="36" height="36"></a>
+            <a class="header__menu-image"><img src="img/login-icon.svg" class="header__login-icon" alt="login-icon" width="36" height="36"></a>
           </li>
           <li class="header__basket-item">
-            <a class="header__menu-image"><img src="img/basket-icon.svg" alt="basket-icon" width="31" height="31"></a>
+            <a class="header__menu-image"><img src="img/basket-icon.svg" class="header__basket-icon" alt="basket-icon" width="31" height="31"></a>
             <div class="header__basket-active">1</div>
           </li>
         </ul>
-        <div class="header__background header__background--catalog"></div>
+        <div class="header__background"></div>
       </header>
       <main class="page-main">
         <div class="catalog-nav">
@@ -62,6 +70,7 @@
           <span class="catalog-nav__symbol">-</span>
           <a href="#" class="catalog-nav__link catalog-nav__link--active">Плитка напольная</a>
         </div>
+        <h2 class="catalog__h2--mobile">Плитка напольная<br>Италия</h2>
         <div class="catalog__icon-wrapper"><img class="catalog__card-icon" src="img/card-logo.png" width="98" height="88"></div>
         <div class="catalog__card">
           <div class="catalog__images">
