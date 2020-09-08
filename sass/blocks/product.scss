@@ -218,6 +218,84 @@
   padding: 31px 25px 31px 25px;
 }
 
+@media (min-width: 768px) and (max-width: 1439px){
+  .header__background--catalog, .catalog__h2{
+    display: none;
+  }
+
+  .catalog-nav{
+    width: 768px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .catalog__h2--mobile{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    white-space: pre;
+    br{
+      display: none;
+    }
+  }
+
+  .catalog__icon-wrapper{
+    width: 668px;
+    margin: 0 auto;
+    margin-bottom: -80px;
+  }
+  .catalog__card-icon{
+    margin-left: 500px;
+  }
+
+  .catalog__card{
+    width: 668px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+
+  .catalog__images{
+    width: 668px;
+  }
+
+  .catalog__description{
+    width: 668px;
+    height: 470px;
+    margin-top: 50px;
+  }
+
+  .catalog__buttons{
+    width: 668px;
+  }
+
+  .rating-area{
+    margin-left: 90px;
+  }
+
+  .catalog__contacts{
+    width: 768px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .catalog__links-list{
+    width: 768px;
+  }
+
+  .catalog__textarea{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    min-width: 768px;
+    max-width: 768px;
+
+  }
+}
+
 @media (max-width: 768px){
   .catalog-nav{
     display: none;

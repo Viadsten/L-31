@@ -144,6 +144,10 @@
     padding-left: 80px;
   }
 
+  .footer__adress-item--header, .footer__catalog-item--header,
+  .footer__nav-item--header{
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 768px){
