@@ -58,6 +58,18 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1439px){
+  .advantages{
+    width: 768px;
+    padding: 0;
+    margin-bottom: 55px;
+  }
+
+  .advantages__line{
+    width: 40px;
+  }
+}
+
 @media (max-width: 768px){
   .advantages{
     width: 280px;

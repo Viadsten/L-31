@@ -139,6 +139,42 @@
   margin: 58px 0 60px 0;
 }
 
+@media (min-width: 768px) and (max-width: 1439px){
+
+  .goods{
+    width: 768px;
+    padding-left: 50px;
+    margin-top: 70px;
+  }
+
+
+.goods__h2{
+  margin-bottom: 60px;
+}
+
+
+  .goods__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    grid-row-gap: 60px;
+    width: 668px;
+  }
+
+  .goods__top-icon, .goods__new-icon{
+    width: 675px;
+    height: 68px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .goods__top-icon-list{
+    width: 320px;
+    height: 50px;
+    margin-bottom: 530px;
+  }
+}
+
 @media (max-width: 768px){
   .goods{
     width: 320px;
